@@ -13,7 +13,7 @@
       "description": "QRClothing, is built in Next.js, connected with an API to request designs, and it's fully functional.",
       "link": "https://qrclothing.shop/",
       "technologies": ["Next.js", "API"],
-      "images": [ "qrclothing-1.png", "qrclothing-2.png", "qrclothing-3.png"],
+      "images": ["qrclothing-1.png", "qrclothing-2.png", "qrclothing-3.png"],
       "show_home": false
     },
     {
@@ -37,7 +37,13 @@
       "description": "Fiverr's client website. Using NextJS.",
       "link": "https://saludnext.vercel.app/",
       "technologies": ["Next.js"],
-      "images": ["salud-1.png", "salud-2.png", "salud-3.png", "salud-4.png", "salud-5.png"],
+      "images": [
+        "salud-1.png",
+        "salud-2.png",
+        "salud-3.png",
+        "salud-4.png",
+        "salud-5.png"
+      ],
       "show_home": true
     },
     {
@@ -53,7 +59,7 @@
       "description": "A URL shortener made with vanilla JavaScript is a simple tool that takes a long URL and generates a short, unique identifier for it, making it easier to share.",
       "link": "https://blitlink-shortener-git-main-dylandev92.vercel.app/",
       "technologies": ["JavaScript", "Vanilla JS"],
-      "images": [ "blitlink-1.png", "blitlink-2.png", "blitlink-3.png" ],
+      "images": ["blitlink-1.png", "blitlink-2.png", "blitlink-3.png"],
       "show_home": false
     },
     {
@@ -61,7 +67,7 @@
       "description": "A task webapp in React is a dynamic tool for managing to-do lists and tracking progress. It offers a user-friendly interface and efficient state management, allowing users to easily add and delete.",
       "link": "https://dylandev92.github.io/TaskReactApp/",
       "technologies": ["React"],
-      "images": [ "task-1.png", "task-2.png"],
+      "images": ["task-1.png", "task-2.png"],
       "show_home": false
     },
     {
@@ -69,7 +75,7 @@
       "description": "A movie list in Next.js is a web application that displays a collection of movies, allowing users to search movies.",
       "link": "https://movie-list-listify.vercel.app/",
       "technologies": ["Next.js"],
-      "images": [ "movie-1.png", "movie-2.png", "movie-3.png"],
+      "images": ["movie-1.png", "movie-2.png", "movie-3.png"],
       "show_home": false
     },
     {
@@ -83,16 +89,24 @@
   ],
   "services": [
     {
-      "title": "Service Title 1",
-      "description": "Service Description 1",
-      "technologies": ["Technology 1", "Technology 2"]
+      "title": "Web Development",
+      "description": "Specializing in full-stack web development, I leverage advanced technologies such as React, Next.js, Node.js, and MongoDB to architect dynamic and intuitive websites. With expertise in both front-end and back-end development, I create seamless online experiences tailored to meet your specific business objectives.",
+      "technologies": ["React", "Next.js", "Node.js", "MongoDB"],
+      "images": ["web-development.png"]
     },
     {
-      "title": "Service Title 2",
-      "description": "Service Description 2",
-      "technologies": ["Technology 3", "Technology 4"]
+      "title": "Game Development",
+      "description": "Proficient in Unity and C#, I excel in crafting interactive and immersive gaming experiences across multiple platforms. From game mechanics and AI implementation to optimizing performance, I ensure every aspect of the game meets the highest standards of quality and engagement.",
+      "technologies": ["Unity", "C#"],
+      "images": ["game-development.jpg"]
+    },
+    {
+      "title": "Software Development",
+      "description": "Experience in C# and Java, I specialize in developing robust and scalable software applications tailored to your specific business needs. Through meticulous design and rigorous testing, I ensure that every line of code aligns with industry best practices, delivering software solutions that stand the test of time.",
+      "technologies": ["C#", "Java"],
+      "images": ["software-development.jpg"]
     }
-  ],
+  ],  
   "tech_stack": [
     "react",
     "nextjs",

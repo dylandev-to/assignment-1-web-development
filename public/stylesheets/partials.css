@@ -240,7 +240,7 @@ footer > p {
   gap: 20px;
 }
 
-.project {
+.card {
   background-color: var(--secondary);
   padding: 2em;
   border-radius: 10px;
@@ -249,33 +249,79 @@ footer > p {
   gap: 5px;
 }
 
-.project > p:first-of-type {
+.card > p:first-of-type {
   font-weight: 500;
 }
 
-.project > .images {
+.card > .images {
   display: flex;
   gap: 20px;
   overflow-x: scroll;
   padding-bottom: 5px;
 }
 
-.project ::-webkit-scrollbar-thumb {
+.card ::-webkit-scrollbar-thumb {
   background: var(--primary);
   border-radius: 10px;
 }
 
-.project > .images > img {
+.card > .images > img {
   object-fit: contain;
   background-color: black;
   border-radius: 10px;
 }
 
-.project > a {
+.card > a {
   background-color: var(--primary);
   padding: 10px 8px;
   border-radius: 5px;
   font-weight: 600;
   color: var(--secondary);
   text-align: center;
+}
+
+.services {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px
+}
+
+.service-list > li {
+  max-width: 70vw;
+  margin: 0;
+}
+
+.services > ul {
+  padding: 0;
+}
+
+.service-list .card {
+  padding: 1em 0em;
+}
+
+.service-list .card > * {
+  padding: 0em 5em;
+}
+
+.service-list .card > .images{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.services > h1 {
+  color: var(--secondary);
+}
+
+.service-list .card p:last-of-type {
+  font-weight: 600;
 }

@@ -1,0 +1,15 @@
+<!-- card.ejs | Dylan | 301294233 | 09/30/2023 -->
+<!-- Retrieves the project object from the parent and displays it -->
+<div class="card">
+  <h2><%= info.title %></h2>
+  <p><%= info.description %></p>
+  <p>Technologies: <%= info.technologies.join(", ") %></p>
+  <div class="images">
+    <% info.images.forEach(image => { %>
+    <img height="400px" width="500px" src="<%= src %><%= image %>" />
+    <% }) %>
+  </div>
+  <% if (info.link) { %>
+  <a href="<%= info.link %>">Visit Project</a>
+  <% } %>
+</div>

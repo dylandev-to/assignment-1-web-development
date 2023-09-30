@@ -1,0 +1,10 @@
+<!-- services.ejs | Dylan | 301294233 | 09/29/2023 -->
+<!-- This will display the information of the portfolio services -->
+<div class="services">
+  <h1>I offer these services</h1>
+  <ul class="service-list">
+    <% portfolio.services.forEach(service => { %>
+    <li><%- include('./partials/card.ejs', {info: service, src: "/images/services/"}) %></li>
+    <% }) %>
+  </ul>
+</div>

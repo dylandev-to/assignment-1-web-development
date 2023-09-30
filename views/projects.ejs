@@ -6,7 +6,7 @@
     <p>Visit my <a href="<%= portfolio.github %>">GitHub</a> for more projects</p>
     <ul class="list-projects">
         <% portfolio.projects.forEach(project => { %>
-            <li><%- include('./partials/project.ejs', {project}) %></li>
+            <li><%- include('./partials/card.ejs', {info: project, src: "/images/project-images/"}) %></li>
         <% }) %>
     </ul>
 </div>
