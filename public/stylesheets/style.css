@@ -44,7 +44,7 @@ a {
   cursor: pointer;
 }
 
-button {
+button, input, textarea {
   background-color: var(--secondary);
   padding: 0.5em 1.5em;
   border-radius: 10px;

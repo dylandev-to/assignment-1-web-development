@@ -5,6 +5,10 @@
   "year": "2023",
   "pronouns": "He/Him",
   "location": "Scarborough, Ontario, Canada",
+  "contact": {
+    "address": "941 Progress Ave, Scarborough",
+    "email": "dylan.appdev@gmail.com"
+  },
   "github": "https://github.com/DylanDev92",
   "short_description": "I am a web and game developer currently studying at Centennial College. I am motivated to continue developing my coding skills...",
   "projects": [
