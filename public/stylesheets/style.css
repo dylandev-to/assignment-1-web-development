@@ -19,17 +19,20 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   border: none;
+  outline: none;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   margin: 0;
+  background-color: var(--primary);
 }
 
 section {
   flex-grow: 1;
+  height: 100%;
 }
 
 li {

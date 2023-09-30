@@ -2,5 +2,8 @@
     "name": "Dylan",
     "id": "301294233",
     "college": "Centennial College",
-    "year": "2023"
+    "year": "2023",
+    "pronouns": "He/Him",
+    "location": "Scarborough, Ontario, Canada",
+    "short_description": "I am a web and game developer currently studying at Centennial College. I am motivated to continue developing my coding skills..."
 }
