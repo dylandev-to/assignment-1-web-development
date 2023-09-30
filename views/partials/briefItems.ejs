@@ -1,0 +1,16 @@
+<!-- briefItems.ejs | Dylan | 301294233 | 09/29/2023 -->
+<div class="brief-items">
+  <!-- Recieves the items element from the parent and displays them -->
+  <h2>Some <%= label %></h2>
+
+  <div class="items">
+    <% items.filter(x => x.show_home === true).forEach(item => { %>
+    <div class="item">
+      <h4><%= item.title %></h4>
+      <p><%= item.description.slice(0, 100) %>...</p>
+    </div>
+    <% }) %>
+  </div>
+
+  <a>Show <%= label %>...</a>
+</div>

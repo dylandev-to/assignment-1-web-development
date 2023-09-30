@@ -1,9 +1,107 @@
 {
-    "name": "Dylan",
-    "id": "301294233",
-    "college": "Centennial College",
-    "year": "2023",
-    "pronouns": "He/Him",
-    "location": "Scarborough, Ontario, Canada",
-    "short_description": "I am a web and game developer currently studying at Centennial College. I am motivated to continue developing my coding skills..."
+  "name": "Dylan",
+  "id": "301294233",
+  "college": "Centennial College",
+  "year": "2023",
+  "pronouns": "He/Him",
+  "location": "Scarborough, Ontario, Canada",
+  "short_description": "I am a web and game developer currently studying at Centennial College. I am motivated to continue developing my coding skills...",
+  "projects": [
+    {
+      "title": "Point of Sale",
+      "description": "A C# POS system with WinForms manages sales, inventory, and customer data with a user-friendly interface, real-time updates.",
+      "link": "Open This",
+      "technologies": ["C#", "WinForms"],
+      "show_home": true
+    },
+    {
+      "title": "URL Shortener",
+      "description": "A URL shortener made with vanilla JavaScript is a simple tool that takes a long URL and generates a short, unique identifier for it, making it easier to share.",
+      "link": "Open This",
+      "technologies": ["JavaScript", "Vanilla JS"],
+      "show_home": false
+    },
+    {
+      "title": "Task React",
+      "description": "A task webapp in React is a dynamic tool for managing to-do lists and tracking progress. It offers a user-friendly interface and efficient state management, allowing users to easily add and delete.",
+      "link": "Open This",
+      "technologies": ["React"],
+      "show_home": false
+    },
+    {
+      "title": "Movie List",
+      "description": "A movie list in Next.js is a web application that displays a collection of movies, allowing users to search movies.",
+      "link": "Open This",
+      "technologies": ["Next.js"],
+      "show_home": false
+    },
+    {
+      "title": "Clothing E-Commerce",
+      "description": "QRClothing, is built in Next.js, connected with an API to request designs, and it's fully functional.",
+      "link": "Open This",
+      "technologies": ["Next.js", "API"],
+      "show_home": false
+    },
+    {
+      "title": "GuideProtocol",
+      "description": "GuideProtocol, is built in Docsify, it's a guide for basic modding in BrokeProtocol, including Unity and Plugins.",
+      "link": "Open This",
+      "technologies": ["Docsify"],
+      "show_home": false
+    },
+    {
+      "title": "ChatBot connected to Instagram",
+      "description": "This chatbot, is built in Node.js, connected to Instagram so you can sign in, read and reply messages.",
+      "link": "Open This",
+      "technologies": ["Node.js", "Instagram API"],
+      "show_home": false
+    },
+    {
+      "title": "Love calculator in Instagram",
+      "description": "This is built using React-Vite, connected to Instagram API.",
+      "link": "Open This",
+      "technologies": ["React-Vite", "Instagram API"],
+      "show_home": false
+    },
+    {
+      "title": "Salud+",
+      "description": "Fiverr's client website. Using NextJS.",
+      "link": "Open This",
+      "technologies": ["Next.js"],
+      "show_home": true
+    },
+    {
+      "title": "tbh.bio",
+      "description": "My social-media project. Using NextJS, Express.JS, MongoDB, etc...",
+      "link": "Open This",
+      "technologies": ["Next.js", "Express.js", "MongoDB"],
+      "show_home": true
+    },
+    {
+      "title": "Semi-Automated YouTube videos",
+      "description": "My YouTube channel automatized with NextJS, and different APIs.",
+      "link": "Open This",
+      "technologies": ["Next.js", "APIs"],
+      "show_home": false
+    },
+    {
+      "title": "Table-Generator Assignment",
+      "description": "Table generator assignment for Centennial College. Made with HTML/CSS and vanilla JavaScript.",
+      "link": "Open This",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "show_home": false
+    }
+  ],
+  "services": [
+    {
+      "title": "Service Title 1",
+      "description": "Service Description 1",
+      "technologies": ["Technology 1", "Technology 2"]
+    },
+    {
+      "title": "Service Title 2",
+      "description": "Service Description 2",
+      "technologies": ["Technology 3", "Technology 4"]
+    }
+  ]
 }
