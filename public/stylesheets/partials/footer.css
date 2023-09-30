@@ -1,0 +1,19 @@
+/*
+  footer.css | Dylan | 301294233 | 09/30/2023
+*/
+footer {
+    flex-shrink: 0;
+    color: var(--secondary);
+    padding: 1em;
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+    display: flex;
+  }
+  
+  footer > p {
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  

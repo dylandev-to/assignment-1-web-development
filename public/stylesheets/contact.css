@@ -1,0 +1,26 @@
+/*
+  contact.css | Dylan | 301294233 | 09/30/2023
+*/
+.contact {
+  color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact > form {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  gap: 10px;
+}
+
+.contact > .contact-info {
+  background-color: var(--secondary);
+  border-radius: 10px;
+  color: var(--primary);
+  padding: 1em;
+  font-weight: 500;
+  margin-bottom: 2em;
+}

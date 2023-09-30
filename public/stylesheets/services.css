@@ -1,0 +1,51 @@
+/*
+  services.css | Dylan | 301294233 | 09/30/2023
+*/
+.services {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.service-list > li {
+  max-width: 70vw;
+  margin: 0;
+}
+
+.services > ul {
+  padding: 0;
+}
+
+.service-list .card {
+  padding: 1em 0em;
+}
+
+.service-list .card > * {
+  padding: 0em 5em;
+}
+
+.service-list .card > .images {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.service-list .card > .images > img {
+  object-fit: contain;
+}
+
+.services > h1 {
+  color: var(--secondary);
+}
+
+.service-list .card p:last-of-type {
+  font-weight: 600;
+}

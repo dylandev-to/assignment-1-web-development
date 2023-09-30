@@ -1,0 +1,48 @@
+/*
+  about-me.css | Dylan | 301294233 | 09/30/2023
+*/
+.about-me {
+  display: flex;
+  gap: 20px;
+  padding: 2em;
+}
+
+.left-panel {
+  color: var(--primary);
+  background-color: var(--secondary);
+  width: 40vw;
+  padding: 2em;
+  border-radius: 10px;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--secondary);
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--secondary);
+  max-height: 55vh;
+  overflow-y: scroll;
+  border-radius: 10px;
+  padding-right: 5px;
+}
+
+.experience {
+  color: var(--primary);
+  background-color: var(--secondary);
+  padding: 1em 2em;
+  border-radius: 10px;
+}
+
+.language-list {
+  color: var(--primary);
+  background-color: var(--secondary);
+  padding: 2em;
+  border-radius: 10px;
+}
