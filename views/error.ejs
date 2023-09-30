@@ -1,4 +1,10 @@
 <!-- error.ejs | Dylan | 301294233 | 09/29/2023 -->
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
+<div class="error">
+  <h1><%= error.status %>: <%= message %></h1>
+  <h3>Redirecting to home...</h3>
+</div>
+<script>
+  setTimeout(() => {
+    window.location.href = "/";
+  }, 1000);
+</script>

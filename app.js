@@ -8,7 +8,6 @@ var logger = require("morgan");
 var expressLayouts = require("express-ejs-layouts");
 
 var indexRouter = require("./routes/index");
-var usersRouter = require("./routes/users");
 
 var app = express();
 
@@ -25,8 +24,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
+// I import the portfolio.json to have dynamic data so can be changed whenever I want.
+// global portfolio variable accessible from anywhere
+global.portfolio = require('./data/portfolio.json')
+
 app.use("/", indexRouter);
-app.use("/users", usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

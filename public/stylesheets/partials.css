@@ -47,6 +47,14 @@ footer {
     padding: 1em;
     text-align: center;
     font-weight: 500;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+.error {
+    padding: 3em;
+    color: var(--secondary);
 }
 
 .home-section {
@@ -113,7 +121,6 @@ footer {
     display: flex;
     flex-direction: column;
     min-height: 40%;
-    overflow: scroll;
 }
 
 .brief-items > a {
@@ -126,7 +133,7 @@ footer {
 }
 
 .brief-items > .items {
-    overflow: scroll;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
     gap: 5px;
