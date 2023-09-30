@@ -1,3 +1,25 @@
-<body>
-    sdad
-</body>
+<!-- aboutme.ejs | Dylan | 301294233 | 09/29/2023 -->
+<!-- This will get the information from the about me element of the portfolio and display it -->
+<div class="about-me">
+  <div class="left-panel">
+    <h2>About Me</h2>
+    <%= portfolio.about_me.professional_summary %>
+  </div>
+  <div class="right-panel">
+    <h2>Experience</h2>
+    <div class="experience-list">
+      <% portfolio.about_me.experience.forEach(exp => { %>
+      <div class="experience">
+        <h4><%= exp.title %></h4>
+        <p><%= exp.description %></p>
+      </div>
+      <% }) %>
+    </div>
+    <div class="language-list">
+      <h2>Languages</h2>
+      <% portfolio.about_me.languages.forEach(lan => { %>
+        <p><%= lan %></p>
+        <% }) %>
+    </div>
+  </div>
+</div>

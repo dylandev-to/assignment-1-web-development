@@ -116,5 +116,30 @@
     "html",
     "unity",
     "figma"
-  ] 
+  ],
+  "about_me": {
+    "professional_summary": "I am a self-taught web and game developer currently studying at Centennial College. I have a good understanding of programming languages like C# and JavaScript. I enjoy learning and keeping up with the latest trends in the industry. I'm skilled at turning creative ideas into user-friendly applications. I'm also good at solving problems. I'm excited about the opportunity to contribute my skills to your projects.",
+    "experience": [
+      {
+        "title": "Intern | Software Developer",
+        "description": "Sorted and organized files, spreadsheets and reports. Analyzed problems, identified solutions and made decisions. Collaborated in professional team to solve workflow issues. Contributed to content creation for company website."
+      },
+      {
+        "title": "Community Manager",
+        "description": "Planned and executed promotional activities to drive community engagement and increase occupancy numbers. Managed community within established cost constraints. Managed project requirements and accomplished objectives by self-monitoring progress and promptly solving issues."
+      },
+      {
+        "title": "Freelance Web Developer | Fiverr",
+        "description": "Developed custom websites for clients with a focus on responsive design. Collaborated with clients to gather requirements and deliver tailored solutions. Received positive feedback and maintained a 5-star rating on the platform."
+      },
+      {
+        "title": "Little Projects",
+        "description": "Designed and developed personal portfolio website showcasing my skills and projects. Created a basic mobile game app. Implemented game mechanics, user interface, and optimized performance."
+      }
+    ],
+    "languages": [
+      "Spanish - Native or Bilingual",
+      "English - Full Professional"
+    ]
+  }
 }

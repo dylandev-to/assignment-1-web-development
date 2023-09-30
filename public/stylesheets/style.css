@@ -52,3 +52,11 @@ button {
   font-size: 15px;
   font-weight: 600;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
