@@ -1,4 +1,15 @@
 <!-- header.ejs | Dylan | 301294233 | 09/29/2023 -->
 <nav>
-    This is a header
+    <div class="logo-name">
+        <!-- Getting the image from the public folder and name from the portfolio.json -->
+        <img src="/images/logo.png" alt="dylan logo" height="100px" width="100px">
+        <h1><%= portfolio.name %>'s Portfolio</h1>
+    </div>
+    <ul class="page-links">
+        <li><a>Home</a></li>
+        <li><a>About Me</a></li>
+        <li><a>Projects</a></li>
+        <li><a>Services</a></li>
+        <li><a>Contact</a></li>
+    </ul>
 </nav>
