@@ -205,13 +205,14 @@ footer > p {
     max-height: 55vh;
     overflow-y: scroll;
     border-radius: 10px;
+    padding-right: 5px;
 }
 
 .experience {
     color: var(--primary);
     background-color: var(--secondary);
     padding: 1em 2em;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
 }
 
 .language-list {
@@ -219,4 +220,62 @@ footer > p {
     background-color: var(--secondary);
     padding: 2em;
     border-radius: 10px;
+}
+
+.projects > h1, .projects > p {
+  text-align: center;
+  color: var(--secondary);
+}
+
+.projects > p > a {
+  font-weight: 600;
+  text-decoration: underline;
+  color: var(--secondary)
+}
+
+.list-projects {
+  padding: 3em 10em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project {
+  background-color: var(--secondary);
+  padding: 2em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.project > p:first-of-type {
+  font-weight: 500;
+}
+
+.project > .images {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  padding-bottom: 5px;
+}
+
+.project ::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.project > .images > img {
+  object-fit: contain;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.project > a {
+  background-color: var(--primary);
+  padding: 10px 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: var(--secondary);
+  text-align: center;
 }

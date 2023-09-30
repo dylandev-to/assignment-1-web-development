@@ -59,4 +59,5 @@ button {
 
 ::-webkit-scrollbar-thumb {
   background: var(--secondary);
+  border-radius: 10px;
 }

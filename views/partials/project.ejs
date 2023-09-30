@@ -1,0 +1,13 @@
+<!-- project.ejs | Dylan | 301294233 | 09/30/2023 -->
+<!-- Retrieves the project object from the parent and displays it -->
+<div class="project">
+    <h2><%= project.title %></h2>
+    <p><%= project.description %></p>
+    <p>Technologies: <%= project.technologies.join(", ") %></p>
+    <div class="images">
+        <% project.images.forEach(image => { %>
+            <img height="400px" width="500px" src="/images/project-images/<%= image %>">
+        <% }) %>
+    </div>
+    <a href=<%= project.link %>>Visit Project</a>
+</div>

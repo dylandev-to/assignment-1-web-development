@@ -1,0 +1,12 @@
+<!-- projects.ejs | Dylan | 301294233 | 09/29/2023 -->
+<!-- This will display the information of the portfolio projects -->
+<div class="projects">
+    <h1>Projects</h1>
+    <p>These are some projects I've been working on, I'll be constantly updating it.</p>
+    <p>Visit my <a href="<%= portfolio.github %>">GitHub</a> for more projects</p>
+    <ul class="list-projects">
+        <% portfolio.projects.forEach(project => { %>
+            <li><%- include('./partials/project.ejs', {project}) %></li>
+        <% }) %>
+    </ul>
+</div>
