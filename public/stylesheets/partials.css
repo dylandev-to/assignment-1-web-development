@@ -98,8 +98,11 @@ footer {
     text-align: center;
 }
 
-.brief-projects {
+.right-content {
     width: 69vw;
+}
+
+.brief-projects {
     padding: 2em;
 }
 
@@ -131,8 +134,33 @@ footer {
 }
 
 .brief-items > .items > .item {
-    background-color: var(--third);
+    background-color: var(--primary);
     color: var(--secondary);
     padding: 15px;
     border-radius: 5px;
+}
+
+.tech-stack {
+    background-color: var(--secondary);
+    margin: 2em;
+    padding: 1em;
+    color: var(--primary);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tech-stack > .stack {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.tech-stack > .stack > img {
+    background-color: var(--secondary);
+    padding: 5px;
+    border-radius: 15px;
 }

@@ -8,9 +8,24 @@
     <!-- Here I include the profile -->
     <%- include('./partials/profile.ejs') %>
 
-    <div class="brief-projects">
-      <%- include('./partials/briefItems.ejs', { label: "Projects", link: "",
-      items: portfolio.projects}) %>
+    <div class="right-content">
+      <div class="brief-projects">
+        <%- include('./partials/briefItems.ejs', { label: "Projects", link: "",
+        items: portfolio.projects}) %>
+      </div>
+
+      <div class="tech-stack">
+        <h2>Tech Stack</h2>
+        <div class="stack">
+          <% portfolio.tech_stack.forEach(tech => { %>
+          <img
+            src="/images/techstack/<%= tech %>.png"
+            height="50px"
+            width="50px"
+          />
+          <% }) %>
+        </div>
+      </div>
     </div>
   </section>
 </html>

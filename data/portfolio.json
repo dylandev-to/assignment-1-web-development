@@ -103,5 +103,18 @@
       "description": "Service Description 2",
       "technologies": ["Technology 3", "Technology 4"]
     }
-  ]
+  ],
+  "tech_stack": [
+    "react",
+    "nextjs",
+    "nodejs",
+    "js",
+    "mongodb",
+    "csharp",
+    "java",
+    "css",
+    "html",
+    "unity",
+    "figma"
+  ] 
 }
