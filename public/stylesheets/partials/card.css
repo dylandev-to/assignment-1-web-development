@@ -1,0 +1,43 @@
+/*
+  card.css | Dylan | 301294233 | 10/4/2023
+*/
+
+.card {
+  background-color: var(--secondary);
+  padding: 2em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card > p:first-of-type {
+  font-weight: 500;
+}
+
+.card > .images {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  padding-bottom: 5px;
+}
+
+.card ::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.card > .images > img {
+  object-fit: contain;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.card > a {
+  background-color: var(--primary);
+  padding: 10px 8px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: var(--secondary);
+  text-align: center;
+}
