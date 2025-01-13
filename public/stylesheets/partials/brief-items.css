@@ -2,43 +2,55 @@
   brief-items.css | Dylan | 301294233 | 09/30/2023
 */
 .right-content {
-    width: 69vw;
+  width: 90%;
+}
+
+.brief-items {
+  background-color: var(--secondary);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 40%;
+  width: 90%;
+}
+
+.brief-items>a {
+  background-color: var(--primary);
+  padding: 15px 0;
+  border-radius: 5px;
+  font-weight: 600;
+  color: var(--secondary);
+  text-align: center;
+}
+
+.brief-items>.items {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 1em 0;
+}
+
+.brief-items>.items>.item {
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 15px;
+  border-radius: 5px;
+  width: auto;
+}
+
+
+@media (max-width: 768px) {
+  .brief-items>h2 {
+    font-size: 18px;
   }
-  
-  .brief-projects {
-    padding: 2em;
+
+  .brief-items>.items>.item {
+    font-size: 14px;
   }
-  
-  .brief-items {
-    background-color: var(--secondary);
-    padding: 20px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    min-height: 40%;
+
+  .brief-items>a {
+    font-size: 14px;
   }
-  
-  .brief-items > a {
-    background-color: var(--primary);
-    padding: 15px 10px;
-    border-radius: 5px;
-    font-weight: 600;
-    color: var(--secondary);
-    text-align: center;
-  }
-  
-  .brief-items > .items {
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin: 1em 0;
-  }
-  
-  .brief-items > .items > .item {
-    background-color: var(--primary);
-    color: var(--secondary);
-    padding: 15px;
-    border-radius: 5px;
-  }
-  
+}

@@ -19,3 +19,22 @@
   flex-direction: column;
   gap: 20px;
 }
+
+
+@media (max-width: 768px) {
+  .list-projects {
+    padding: 3em 1em;
+  }
+
+  .projects > p {
+    margin: 0 1em;
+  }
+
+  .projects h2 {
+    font-size: 18px;
+  }
+
+  .projects p {
+    font-size: 12px;
+  }
+}

@@ -2,16 +2,72 @@
   "name": "Dylan",
   "id": "301294233",
   "college": "Centennial College",
-  "year": "2023",
+  "year": "2025",
   "pronouns": "He/Him",
   "location": "Scarborough, Ontario, Canada",
   "contact": {
     "address": "941 Progress Ave, Scarborough",
     "email": "dylan.appdev@gmail.com"
   },
-  "github": "https://github.com/DylanDev92",
-  "short_description": "I am a web and game developer currently studying at Centennial College. I am motivated to continue developing my coding skills...",
+  "github": "https://github.com/dylandev-to",
+  "short_description": "I am a web and software developer currently studying at Centennial College. I am motivated to continue developing my coding skills...",
   "projects": [
+    {
+      "title": "Discord Status Switcher (WIP)",
+      "description": "A GUI open-source project, for retrieving Discord token and use it for Discord API interaction to switch status.",
+      "link": "https://github.com/dylandev-to/dis-file-gui",
+      "technologies": ["Electron.js", "JavaScript", "Node.js"],
+      "images": ["switcher-1.png", "switcher-2.png"],
+      "show_home": false
+    },
+    {
+      "title": "Dis File GUI",
+      "description": "A GUI open-source project, for unlimited file storage",
+      "link": "https://github.com/dylandev-to/dis-file-gui",
+      "technologies": ["Electron.js", "JavaScript", "Node.js"],
+      "images": ["dis-1.png", "dis-2.png"],
+      "show_home": false
+    },
+    {
+      "title": "Fast Desert Racing",
+      "description": "A game made for Game Programming 2, multiplayer racing game.",
+      "link": "https://drive.google.com/file/d/16vZaL-e6Q2w_u9ylpimFEvrLQYRIDwnB/view?usp=drive_link",
+      "technologies": ["Unity", "Blender", "C#"],
+      "images": ["fast-1.png", "fast-2.png", "fast-3.png", "fast-4.png", "fast-5.png", "fast-6.png"],
+      "show_home": false
+    },
+    {
+      "title": "EcoVend",
+      "description": "A StartUp to sell peanuts with mobile payment (I won the competition prize). Made with ESP32, components and 3D printing",
+      "link": "https://ecovend.vercel.app/",
+      "technologies": ["3D", "C++", "React.js", "Express.js", "Node.js", "MongoDB", "ArduinoIDE/ESP32"],
+      "images": ["peanuts-1.png", "peanuts-2.png", "peanuts-3.png", "peanuts-4.png", "peanuts-5.png", "peanuts-6.png"],
+      "show_home": true
+    },
+    {
+      "title": "HaxBall Community Handler",
+      "description": "A monetized server that handles more than 3000+ players showing stats of different players.",
+      "link": "https://www.elreinodelpan.net/",
+      "technologies": ["SQL", "Node.js", "Typescript", "React.js", "Express.js"],
+      "images": ["reinodelpan-1.png", "reinodelpan-2.png", "reinodelpan-3.png", "reinodelpan-4.png", "reinodelpan-5.png"],
+      "show_home": false
+    },
+    {
+      "title": "Streaming Application",
+      "description": "Landing page for a website for simultaneous streaming.",
+      "link": "#",
+      "technologies": ["React.js", "Tailwind"],
+      "images": ["streaming-1.png"],
+      "show_home": false
+    },
+    {
+      "title": "Sof-IA",
+      "description": "Bot that simulates a person and has conversations with people.",
+      "link": "#",
+      "technologies": ["Node.js", "SQLite", "Discord.js", "Tailwind"],
+      "images": ["sofia-1.png", "sofia-2.png", "sofia-3.png"],
+      "show_home": false
+    },
     {
       "title": "Clothing E-Commerce",
       "description": "QRClothing, is built in Next.js, connected with an API to request designs, and it's fully functional.",
@@ -29,12 +85,28 @@
       "show_home": true
     },
     {
-      "title": "Point of Sale",
-      "description": "A C# POS system with WinForms manages sales, inventory, and customer data with a user-friendly interface, real-time updates.",
-      "link": "https://github.com/DylanDev92/Sistema-POS",
-      "technologies": ["C#", "WinForms"],
-      "images": ["pos-1.png", "pos-2.png", "pos-3.png", "pos-4.png"],
-      "show_home": true
+      "title": "Image Splitter",
+      "description": "Fiverr's client website. Using NextJS.",
+      "link": "https://image-splitter-nextjs.vercel.app/",
+      "technologies": ["Next.js"],
+      "images": [
+        "split-1.png",
+        "split-2.png",
+        "split-3.png",
+        "split-4.png",
+        "split-5.png"
+      ],
+      "show_home": false
+    },
+    {
+      "title": "Universal Downloader",
+      "description": "Downloader for videos on internet.",
+      "link": "https://github.com/dylandev-to/shorts-downloader",
+      "technologies": ["React.js", "TailwindCSS", "Node.js"],
+      "images": [
+        "downloader-1.png"
+      ],
+      "show_home": false
     },
     {
       "title": "Salud+",
@@ -51,12 +123,20 @@
       "show_home": true
     },
     {
+      "title": "You Won't Last 5 Seconds",
+      "description": "Game made for Introduction to Game Programming. A 2D survival game.",
+      "link": "#",
+      "technologies": ["Unity", "Aseprite", "C#"],
+      "images": ["ywl5-1.png", "ywl5-2.png", "ywl5-3.png", "ywl5-4.png", "ywl5-5.png"],
+      "show_home": false
+    },
+    {
       "title": "GuideProtocol",
       "description": "GuideProtocol, is built in Docsify, it's a guide for basic modding in BrokeProtocol, including Unity and Plugins.",
       "link": "https://guide-protocol.vercel.app/#/",
       "technologies": ["Docsify"],
       "images": ["guide-1.png", "guide-2.png", "guide-3.png"],
-      "show_home": false
+      "show_home": true
     },
     {
       "title": "URL Shortener",
@@ -64,6 +144,14 @@
       "link": "https://blitlink-shortener-git-main-dylandev92.vercel.app/",
       "technologies": ["JavaScript", "Vanilla JS"],
       "images": ["blitlink-1.png", "blitlink-2.png", "blitlink-3.png"],
+      "show_home": false
+    },
+    {
+      "title": "Point of Sale",
+      "description": "A C# POS system with WinForms manages sales, inventory, and customer data with a user-friendly interface, real-time updates.",
+      "link": "https://github.com/DylanDev92/Sistema-POS",
+      "technologies": ["C#", "WinForms"],
+      "images": ["pos-1.png", "pos-2.png", "pos-3.png", "pos-4.png"],
       "show_home": false
     },
     {
@@ -122,7 +210,20 @@
     "css",
     "html",
     "unity",
-    "figma"
+    "figma",
+    "go",
+    "c++",
+    "typescript",
+    "lua",
+    "python",
+    "aws",
+    "git",
+    "electron",
+    "arduino",
+    "sql",
+    "tailwind",
+    "reactnative",
+    "kotlin"
   ],
   "about_me": {
     "professional_summary": "I am a web and game developer currently studying at Centennial College. I have a good understanding of programming languages like C# and JavaScript. I enjoy learning and keeping up with the latest trends in the industry. I'm skilled at turning creative ideas into user-friendly applications. I'm also good at solving problems. I'm excited about the opportunity to contribute my skills to your projects.",

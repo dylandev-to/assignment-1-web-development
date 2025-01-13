@@ -4,25 +4,36 @@
 
 .tech-stack {
   background-color: var(--secondary);
-  margin: 2em;
+  margin: 2em 0;
   padding: 1em;
   color: var(--primary);
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 90%;
 }
 
-.tech-stack > .stack {
-  display: flex;
-  justify-content: space-between;
+.tech-stack>.stack {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 0.2fr));
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
   background-color: var(--primary);
   padding: 1em;
   border-radius: 10px;
 }
 
-.tech-stack > .stack > img {
+
+.tech-stack>.stack>img {
   background-color: var(--secondary);
   padding: 5px;
   border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .tech-stack {
+    width: 82vw;
+  }
 }

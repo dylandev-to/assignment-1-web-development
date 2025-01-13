@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: 100vw;
   margin: 0;
   background-color: var(--primary);
 }
@@ -33,6 +34,7 @@ body {
 section {
   flex-grow: 1;
   height: 100%;
+  min-width: 100vw;
 }
 
 li {

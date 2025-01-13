@@ -2,6 +2,42 @@
   home.css | Dylan | 301294233 | 09/30/2023
 */
 .home-section {
+  display: flex;
+  width: 100vw;
+}
+
+.home-section>.right-content {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.brief-projects {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .home-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
   }
-  
+
+  .home-section>.right-content {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .brief-projects {
+    width: 90vw;
+    margin-top: 1em;
+  }
+
+  .tech-stack > h2 {
+    font-size: 18px;
+  }
+}
