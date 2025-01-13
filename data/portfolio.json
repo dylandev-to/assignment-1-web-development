@@ -21,6 +21,14 @@
       "show_home": false
     },
     {
+      "title": "Age Calculator AI",
+      "description": "This is a website I made for fun, loved the design tho.",
+      "link": "https://age-calculator-ai.vercel.app/",
+      "technologies": ["React.js"],
+      "images": ["age-1.png", "age-2.png", "age-3.png"],
+      "show_home": false
+    },
+    {
       "title": "Dis File GUI",
       "description": "A GUI open-source project, for unlimited file storage",
       "link": "https://github.com/dylandev-to/dis-file-gui",
